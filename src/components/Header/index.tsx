@@ -8,14 +8,18 @@ function Header(){
     return (
         <header>
            
+           <div className="navbar">
+
            <div className="container">
         
             <div className="logo">
 
             <img src={Logo}  alt="Logo do dindin"/>
+
             <h2>dindin</h2>
-            
+
             </div>
+           
 
             <div className="navegacao">
 
@@ -25,6 +29,8 @@ function Header(){
                 <Link texto = "Contatos" redirect = "contatos"/>
 
             </nav>
+
+            </div>
 
             </div>
            
