@@ -7,7 +7,6 @@ import "./styles.css";
 function Header(){
     return (
         <header>
-           
            <div className="navbar">
 
            <div className="container">
@@ -19,25 +18,16 @@ function Header(){
             <h2>dindin</h2>
 
             </div>
-           
-
+        
             <div className="navegacao">
-
-            <nav>
-                <Link texto = "Cursos" redirect = "cursos"/>
-                <Link texto = "Blog" redirect = "blog"/>
-                <Link texto = "Contatos" redirect = "contatos"/>
-
-            </nav>
-
+                <nav>
+                    <Link texto = "Cursos" redirect = "cursos"/>
+                    <Link texto = "Blog" redirect = "blog"/>
+                    <Link texto = "Contatos" redirect = "contatos"/>
+                </nav>
             </div>
-
             </div>
-           
            </div>
-            
-
-            
         </header>
     );
 }

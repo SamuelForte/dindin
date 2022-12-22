@@ -1,6 +1,17 @@
 .links-menu{
-    color: white;
-    font-weight: bold;
+
+  
+    color: #FDFDFD;
     font-size: 18px;
     text-decoration: none;
+    margin-right: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+}
+
+.links-menu:hover{
+    transition: all 200ms ease;
+    border-bottom: 5px solid white;
 }
