@@ -1,12 +1,11 @@
 
-import Link from "./Link";
-
 import Logo from "../../assets/images/logo.png";
-
+import Link from "./Link";
 import "./styles.css";
-function Header(){
-    return (
-        <header>
+
+export default function Navbar () {
+  return (
+    <header>
            <div className="navbar">
 
            <div className="container">
@@ -29,6 +28,5 @@ function Header(){
             </div>
            </div>
         </header>
-    );
+  )
 }
-export default Header;

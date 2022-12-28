@@ -1,0 +1,60 @@
+.banner {
+  display: flex;
+  width: 1028px;
+  height: 521px;
+  margin-top: 125px;
+  margin-left: 206px;
+}
+
+.left {
+  width: 488px;
+  height: 386px;
+  margin-right: 40px;  
+}
+
+.left__title {  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #FF4081;
+  margin-bottom: 20px;
+}
+
+.left__paragraph {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+.left__button {
+  box-sizing: border-box;
+  width: 268px;
+  height: 51px;
+  border: 2px solid #FF4081;
+  border-radius: 62px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.left__button span {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  color: #FF4081;
+}
+
+.right {
+  width: 500px;
+  height: 386px;  
+  
+}
+
+.right img {
+  width: 100%;
+}
+
