@@ -1,0 +1,35 @@
+.depo {
+  display: flex;
+}
+
+.avatar__cicle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 104px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  margin-right: 28px;
+}
+
+.avatar__cicle img {
+  object-fit: cover;
+}
+
+.depoimento {
+  width: 22.5rem;
+}
+
+.depoimento p span {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.depoimento span {
+  font-weight: 400;
+}

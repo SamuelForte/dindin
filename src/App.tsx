@@ -1,4 +1,4 @@
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import "./style/global.css"
 function App() {
   return (
