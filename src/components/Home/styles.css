@@ -62,17 +62,27 @@ color: #FFFFFF;
 
 .about {
   width: 100%;
-  margin-left: 128px;
+  /* margin-left: 128px; */
 }
 
 .about__container {
 
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 5rem;
   font-family: "Ubuntu";
 
+
+
+
+  /*position: absolute;
+  width: 1087px;
+  height: 427px;
+  left: 128px;
+  top: 1678px;
+*/
   
 }
 
@@ -98,9 +108,7 @@ color: #FFFFFF;
 }
 
 .depoimento {
-  width: 360px
-  
-
+  width: 22.5rem;
 }
 
 .depoimento p span {
