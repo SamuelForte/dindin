@@ -10,6 +10,8 @@ import "./styles.css";
 import Navbar from "../../components/Navbar";
 import Banner from "./Banner";
 import { Depo } from "../../components/Depo";
+import { Card } from "../../components/Card";
+import { Container } from "../../components/Container";
 
 export default function Home() {
   return (
@@ -17,52 +19,38 @@ export default function Home() {
       <Navbar />
       <Banner />
       <section className="cursos">
-        <div className="card">
-          <img
-            className="investimentImg"
-            src={InvestmentImg}
-            alt="images of Investment"
-          />
-          <h2 className="card__title">Investimento para iniciantes</h2>
-          <p className="card__description">
-            Duis aute irure dolor in reprehenderit in voluptate velit cillum
-            dolore eu fugiat nulla pariatur.
-          </p>
+        <Card
+          title="Investimento para iniciantes"
+          description="Duis aute irure dolor in reprehenderit in voluptate velit cillum
+                dolore eu fugiat nulla pariatur."
+          image={InvestmentImg}
+        >
           <button className="card__button">
             <span> começar agora</span>
           </button>
-        </div>
-        <div className="card">
-          <img
-            className="investimentImg"
-            src={SavingsImg}
-            alt="images of Investment"
-          />
-          <h2 className="card__title">Poupando e Rendendo</h2>
-          <p className="card__description">
-            Duis aute irure dolor in reprehenderit in voluptate velit cillum
-            dolore eu fugiat nulla pariatur.
-          </p>
-          <button className="card__button">
-            <span> começar agora</span>
-          </button>
-        </div>
+        </Card>
 
-        <div className="card">
-          <img
-            className="investimentImg"
-            src={IndependenceImg}
-            alt="images of Investment"
-          />
-          <h2 className="card__title">Independência Financeira</h2>
-          <p className="card__description">
-            Duis aute irure dolor in reprehenderit in voluptate velit cillum
-            dolore eu fugiat nulla pariatur.
-          </p>
+        <Card
+          title="Poupando e Rendendo"
+          description="Duis aute irure dolor in reprehenderit in voluptate velit cillum
+            dolore eu fugiat nulla pariatur."
+          image={SavingsImg}
+        >
           <button className="card__button">
             <span> começar agora</span>
           </button>
-        </div>
+        </Card>
+
+        <Card
+          title="Independência Financeira"
+          description="Duis aute irure dolor in reprehenderit in voluptate velit cillum
+            dolore eu fugiat nulla pariatur."
+          image={IndependenceImg}
+        >
+          <button className="card__button">
+            <span> começar agora</span>
+          </button>
+        </Card>
       </section>
 
       <section className="about">

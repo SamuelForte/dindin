@@ -7,34 +7,6 @@
   margin-bottom: 117px;
 }
 
-.card {
-  width:340px; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card__title {  
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  text-align: center;
-  color: #FF4081;
-  margin-bottom: 23px ;
-}
-
-.card__description {
-  
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-
-text-align: center;
-margin-bottom: 26px;
-}
-
 .card__button {
   width: 233px;
   height: 51px;
@@ -55,10 +27,7 @@ text-align: center;
 
 color: #FFFFFF;
 }
-.investimentImg {
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
+
 
 .about {
   width: 100%;
@@ -73,7 +42,6 @@ color: #FFFFFF;
     color: #009688;
     margin-bottom: 80px;
 }
-
 .about__container {
   width: 100%;
   display: flex;
