@@ -6,8 +6,7 @@ import "./style/global.css";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <Test />
+      <Home />
     </div>
   );
 }

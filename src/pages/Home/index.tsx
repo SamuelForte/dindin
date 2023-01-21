@@ -12,6 +12,7 @@ import Banner from "./Banner";
 import { Depo } from "../../components/Depo";
 import { Card } from "../../components/Card";
 import { Container } from "../../components/Container";
+import Button from "../../components/Button";
 
 export default function Home() {
   return (
@@ -25,9 +26,13 @@ export default function Home() {
                 dolore eu fugiat nulla pariatur."
           image={InvestmentImg}
         >
-          <button className="card__button">
+          <Button size="lg" rounded color="primary">
+            Começar agora
+          </Button>
+
+          {/* <button className="card__button">
             <span> começar agora</span>
-          </button>
+          </button> */}
         </Card>
 
         <Card

@@ -1,5 +1,4 @@
 import Button from "../../components/Button";
-import User4 from "../../assets/images/user4.png";
 
 export default function Test() {
   return (
@@ -7,14 +6,58 @@ export default function Test() {
       style={{
         display: "flex",
         justifyContent: "center",
-        flexDirection: "column",
+        flexDirection: "row",
         alignItems: "center",
         height: "100vh",
       }}
     >
-      <Button>
-        <span>Yes</span>
+      <Button flat>
+        <span>Button</span>
       </Button>
+
+      {/* <Button color="primary" size="sm">
+        <span>Primary</span>
+      </Button>
+
+      <Button flat color="danger" size="lg">
+        <span>Flat</span>
+      </Button> */}
+
+      {/* <Button color="secondary" size="lg" rounded>
+        <span>Secondary</span>
+      </Button>
+
+      <Button color="success">
+        <span>Success</span>
+      </Button>
+
+      <Button color="danger">
+        <span> Danger </span>
+      </Button>
+
+      <Button color="warning">
+        <span> Warning </span>
+      </Button>
+
+      <Button color="info">
+        <span> info </span>
+      </Button>
+
+      <Button color="light">
+        <span> light </span>
+      </Button>
+
+      <Button color="dark">
+        <span> dark </span>
+      </Button>
+
+      <Button color="link">
+        <span> link </span>
+      </Button>
+
+      <Button color="primary" size="sm">
+        <span> flat </span>
+      </Button> */}
     </div>
   );
 }
